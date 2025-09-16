@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Button to switch between Light and Dark mode -->
+  <button id="toggleMode">🌙 Toggle Dark Mode</button>
+
+  <!-- Contact Form Section -->
+  <div class="form-container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+
+      <!-- Name input -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+      <!-- Greeting will appear here when typing name -->
+      <p id="greetingMessage"></p>
+
+      <!-- Email input -->
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email">
+
+      <!-- Password input -->
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password">
+
+      <!-- Confirm Password input -->
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" placeholder="Confirm password">
+
+      <!-- Submit button -->
+      <button type="submit">Submit</button>
+
+      <!-- Message after form validation -->
+      <p id="formMessage"></p>
+    </form>
+  </div>
+
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
